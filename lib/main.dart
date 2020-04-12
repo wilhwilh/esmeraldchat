@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/chats.dart';
+import './pages/intro_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Chats(),
+      home: IntroScreen(),
     );
   }
 }
